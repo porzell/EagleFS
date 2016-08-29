@@ -4,9 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define SECTOR_TABLE_CHUNK_SIZE	2048
-
-char *path_tokens = "\\/";
+// Path parsing tokens.
+const char *path_tokens = "\\/";
 
 //======================================================================
 DISK_ADDRESS EagleFS_Find_Free_Folder_Table();
