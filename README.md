@@ -1,5 +1,5 @@
 # EagleFS
-A small, lightweight file system suitable for use by microcontrollers for flash memory storage devices.
+A small, lightweight, fixed-block file system suitable for use by microcontrollers on flash memory storage devices.
 
 ## Features
   - Unlimited file size support.
@@ -11,6 +11,7 @@ A small, lightweight file system suitable for use by microcontrollers for flash 
   - Basic block-buffering to avoid write wear on limited write cycle storage devices (State: Not yet started)
 
 ## Future TO-DOs:
+  - Endianness-agnostic design
   - Read/Write optimization (less fragmented design)
   - Data Integrity, Security, and Encryption features
 
